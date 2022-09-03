@@ -12,8 +12,7 @@ struct user
     char phn[20] ;
     char address[200] ;
     int activation ;
-    
-}userList[10000];
+    }userList[10000];
 
 struct book
 {
@@ -22,16 +21,14 @@ struct book
     char author[100] ;
     char ISBN[50] ;
     int numCopy ;
-    
-}bookList[1000];
+    }bookList[1000];
 
 struct mapping
 {
 
     char userPhn[20] ;
     char bookISBN[100] ;
-    
-}assignBook[10000];
+    }assignBook[10000];
 
 int main()
 {
